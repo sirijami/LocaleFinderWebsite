@@ -1,0 +1,36 @@
+/* added by neha */
+img {
+  width: 100%;
+}
+footer {
+  padding: 0.5em;
+  clear: left;
+}
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-weight: bold;
+}
+a img {
+  height: auto;
+  width: 30%;
+}
+/*
+button {
+    font-size: @buttonFontSize;
+    margin-top: 14%;
+    margin-left: 2%;
+    padding:25% 0 20% 3;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 12px;
+    width: @buttonWidth;
+}
+*/
+h2 {
+  margin: 2%;
+  padding: 1%;
+  text-align: center;
+}
+/* end Neha */

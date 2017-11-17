@@ -1,0 +1,65 @@
+/*Colors*/
+/*#e9ece5  #ddeeeb*/
+/* rgb(0, 51, 102);*/
+
+footer,
+header {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+button {
+  background-color: #2dbcb6;
+  color: #ffffff;
+}
+#descr {
+  background-color: #e9ece5;
+  color: #3b3a36;
+}
+a {
+  color: #2dbcb6;
+}
+.lf-link {
+  color: #2dbcb6;
+}
+.lf-link:hover {
+  color: #96dedb !important;
+}
+.graphicsWrapper {
+  /* background-color: @graphicBgColor;*/
+}
+h2 {
+  color: #3b3a36;
+}
+.lf-text-color {
+  color: #3b3a36;
+}
+.lf-text-white {
+  color: #fff;
+}
+.lf-black {
+  color: #fff!important;
+  background-color: #000!important;
+}
+.lf-red {
+  color: #fff !important;
+  background-color: #f44336 !important;
+}
+.lf-text-darkred {
+  color: darkred !important;
+}
+.lf-button-brand {
+  background-color: #2dbcb6 !important;
+  color: #ffffff !important;
+}
+.lf-bg {
+  background-color: #e9ece5;
+  color: #3b3a36;
+}
+.lf-bg1 {
+  background-color: #c0dfd9;
+  color: #3b3a36;
+}
+.lf-card-2 {
+  background-color: #fff;
+  /*color:#2dbcb6;*/
+}

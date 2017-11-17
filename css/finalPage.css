@@ -1,0 +1,55 @@
+body
+{
+	background-color: #e9ece5;
+	font-size: 1.2rem;
+	/*height: 100%;*/
+	height:auto;
+}
+
+#neighborhoodName,#recommend
+{
+	margin-top:0%; 
+	margin-bottom:0%;
+}
+#recommend, h3, p
+{
+	color: #3b3a36;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 1.7rem;
+	margin-top: 0%;
+}
+p  a
+{
+	color:#2dbcb6;
+}
+#thankyou
+{
+	margin-top:31%;
+	margin-bottom:3%;
+	
+}
+#team
+{
+	margin-top: 3%;
+}
+p
+{
+	font-weight: bold;
+}
+
+@media only screen  and (min-device-width: 1200px) and (max-device-width: 1600px)   
+{
+	#team
+	{
+		margin-bottom: 12%;
+	}
+	#thankyou
+	{
+	margin-top:12%;
+	}
+}
+

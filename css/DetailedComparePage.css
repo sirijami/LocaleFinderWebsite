@@ -1,0 +1,329 @@
+html,body
+{
+	height:100%;
+  background-color:#e9ece5;
+}
+#viewDetails
+{
+  text-align:center;
+  margin-right:3%;
+}
+.container 
+{
+  margin: 0%;
+  margin-left:auto; 
+  margin-right:auto;
+  height: 100%;
+  width: 85%;
+  display: -moz-box;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.child2,.child3
+{
+  margin-left: 2%;
+}
+.child1,.child2,.child3
+{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	height:95%;
+	width: 50%; 
+	background-color: #c6d2cf;
+  display: -moz-box;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-direction:column;
+  -moz-flex-direction:column;
+  -ms-flex-direction:column;
+  flex-direction:column;
+}
+
+.metricDiv
+{
+  background-color:#4d9989;
+}
+
+.metricDiv 
+{
+ 
+  margin-top: 6%;
+  height:16%;
+  width: 84%;
+  margin-left: 8%;
+  color: white;
+  text-align: center;
+  line-height: 100%;
+  font-size:1.1em;
+}
+#heading h2
+{
+  color:#3b3a36;
+  font-size:1.5em; 
+  margin-top:10%;
+  margin-bottom: 0%;
+}
+#a1crime,#a1school,#a1school,#a1transport,#a1house,#a1income,#a2crime,#a2school,#a2school,#a2transport,#a2house,#a2income
+{
+  margin-top: 6%;
+  height:16%;
+  width: 84%;
+  margin-left: 8%;
+  text-align: center;
+  color:#ffffff;
+  font-size:2.8em;
+}
+ 
+.head
+{
+  margin-top: 5%;
+  margin-left: 8%;
+  height:8%;
+  width: 84%;
+  background-color:#6a6862;
+  color: white;
+  text-align: center;
+  font-size:1.1em;
+  line-height:100%;
+}
+.head a
+{
+  color:#ffffff;
+  cursor: pointer;
+}
+.head a:hover
+{
+  text-decoration: underline;
+ 
+}
+.head a:visited
+{
+  text-decoration:none;
+ 
+}
+#mName,#a1Name,#a2Name
+{
+  margin-top:3%;
+}
+.AA
+{
+  background-color:#008000;
+}
+.A
+{
+  background-color: #248f24;
+}
+.BB
+{
+  background-color: #29a329; 
+
+}
+.B
+{
+  background-color: #33cc33;
+
+}
+.C
+{
+  background-color:#ff9933;
+}
+.D
+{
+  background-color: #ff5c33;
+} 
+#legendMain
+{
+  width: 80%;
+  height: 35%;
+  border:1px solid #c6d2cf;
+  margin-left:10%;
+  margin-right: 10%;
+}
+.colorLegend
+{
+  display:flex;
+  flex-direction: column;
+  margin-left:30%;
+  margin-top:5%;
+}
+.colorChild-2
+{
+  height:20px;
+  width: 20px;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  margin-top:3%;
+  border:1px black;
+  display: inline-block;
+} 
+#viewHomes
+{
+  margin-top: 7%;
+  margin-bottom:7%;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  display: flex;
+  flex-direction:column;
+  font-weight: bold;
+  font-size: 1.3em;
+  width:40%;
+}
+#homes
+{
+  cursor: pointer;
+}
+#choices
+{
+  display: flex;
+  flex-direction:column;
+  cursor: pointer;
+}
+
+#details
+{
+  background-color:#c0dfd9; 
+}
+
+#criteriaDescription
+{
+  margin-bottom: 10%;
+}
+#details h3
+{
+  text-align: center;
+  margin-bottom:3%;
+  font-size:1.3em;
+}
+p
+{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+#backtotop
+{
+  text-align: right;
+  margin-right: 0%;
+}
+#backtotop a:hover
+{
+  color:#3b3a36; 
+}
+
+
+@media only screen and (device-width: 768px)
+{
+  .head
+  {
+    line-height:250%;
+    font-size: 1.3em;
+  }
+  .metricDiv 
+  {
+    font-size: 1.5em;
+  }
+  .metricChild
+  {
+    margin-top:20%;
+  }
+  .contentChild
+  {
+    margin-top: 25%;
+  }
+}
+@media screen  and (min-device-width: 1200px) and (max-device-width: 1600px)
+{
+  .container
+  {
+    margin-left:15%;
+    margin-top:0%;
+    margin-right:0%;
+  }
+	.child1,.child2,.child3
+  {
+   height:100%;
+  }
+  .head
+  {
+    line-height: 180%;
+    font-size:1.3em; 
+  }
+  
+  .child1,.child2,.child3
+  {
+    width: 25%;
+
+  }
+  .metricDiv,#a1crime,#a1school,#a1school,#a1transport,#a1house,#a1income,#a2crime,#a2school,#a2school,#a2transport,#a2house,#a2income
+  {
+    height:15%;
+
+  }
+  .metricDiv
+  {
+    line-height: 200%;
+  }
+  
+  #legendMain
+  {
+    margin-left:18%;
+    margin-top: 8%;
+    width: 60%;
+    height:20%;
+  }
+  .colorLegend
+  {
+    margin-left: 12%;
+    flex-direction: row;
+  }
+  .legendChild
+  {
+    margin-left: 2%;
+  }
+  #viewHomes
+  {
+    margin:auto;
+    margin-top:5%;
+    text-align: center;
+    
+  } 
+  #choices
+  {
+    flex-direction:row;
+    margin-left: 40%;
+    margin-top:4%;
+  } 
+  #homes
+  {
+    width: 25%;
+    margin-left: 35%;
+  }
+  #choice2
+  {
+    margin-left:5%;
+  }
+  #details
+  {
+    margin-top:5%;
+  }
+  #viewDetails
+  {
+   margin-bottom: 0%;
+  }
+
+}
+
+

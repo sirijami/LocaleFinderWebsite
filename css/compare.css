@@ -1,0 +1,79 @@
+body{
+  margin-top: 30%;
+  background-color: #e9ece5;
+}
+.heading{
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: center;
+}
+.compareContainer{
+  padding: 2%;
+}
+.compareContainer section{
+  padding: 3%;
+  height: 20rem;
+  width:90%;
+}
+img{
+  width: 100%;
+  height: 15rem;
+  border: solid 2px #55aa99;
+}
+.compareContainer input{
+  padding: 2%;
+  width: 50%;
+  height: auto;
+  margin: 1% 17%;
+  font-size:1rem;
+}
+#errorMessage1, #errorMessage2{
+  color: red;
+}
+.compareButton{
+  display: flex;
+  justify-content: center;
+  margin-top: -10%;
+}
+.buttonStyling{
+  margin: 0% 2%;
+}
+.compareDetails{
+  background-color: #ddeeeb;
+  padding: 3%;
+  text-align: center;
+}
+
+button{
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 600px) {
+  body{
+    margin-top: 15%;
+  }
+}
+/*for desktop*/
+@media only screen and (min-width: 1025px) {
+ body{
+   margin-top: 10%;
+ }
+ .compareContainer{
+   display: flex;
+ }
+ h2{
+   font-size: 1.5rem;
+   margin: -2%;
+   margin-bottom: 1%;
+   margin-top: .4%
+ }
+ .compareButton{
+   margin-top:-5%;
+   margin-bottom: 2%;
+ }
+ #errorMessage1, #errorMessage2{
+   margin: 0% 18%;
+ }
+
+
+}

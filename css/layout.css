@@ -1,0 +1,348 @@
+/* added by neha */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Philosopher", "Raleway", sans-serif;
+}
+body,
+html {
+  height: 100%;
+  line-height: 1.8;
+}
+.main div {
+  margin-left: 5% ;
+  margin-right: 5%;
+}
+.rowLayout {
+  display: flex;
+  flex-direction: row;
+}
+#descr.rowLayout {
+  justify-content: center;
+}
+.colLayout {
+  display: flex;
+  flex-direction: column;
+}
+#indexMain .feature {
+  padding: 8%;
+  display: flex;
+  flex-direction: column;
+}
+#indexMain .feature p {
+  text-align: center;
+}
+#indexMain .feature a {
+  align-self: center;
+}
+#nav img {
+  width: 110px;
+  height: auto;
+  padding: 10%;
+  border-radius: 20%;
+}
+#nav #down {
+  /*  margin: auto;
+          margin-top: 2%;*/
+  /* margin-bottom: 2%;
+         margin-left: 70%;*/
+}
+#nav #down .line {
+  width: 35px;
+  height: 5px;
+  background-color: #b5b5b5;
+  margin: 6px 0;
+}
+#nav #down #down-icon {
+  /* margin-left: 230%;*/
+}
+#nav #down #down-content a {
+  color: #ffffff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+#nav #down-content-desktop {
+  display: none;
+}
+#down-content {
+  display: none;
+  position: absolute;
+  background-color: #707070;
+  z-index: 1;
+}
+.sticky-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.mobileLayout {
+  display: flex;
+  flex-direction: column;
+}
+/*new Styles */
+.grayscale-min {
+  filter: grayscale(50%);
+}
+.position-left {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  transform: translate(0%, -50%);
+}
+.position-bottomleft {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.position-bottomright {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+position-bottom {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.position-right {
+  float: right!important;
+}
+.position-topright {
+  top: 0;
+  right: 0;
+}
+.lf-button {
+  border: none;
+  display: inline-block;
+  outline: 0;
+  padding: 10px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  font-weight: lighter;
+}
+.lf-button:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+.lf-button-small {
+  width: 30%;
+}
+a .header-link {
+  color: #fff!important;
+}
+.wide {
+  letter-spacing: 1px;
+}
+.text-right {
+  text-align: right!important;
+}
+.text-left {
+  text-align: left!important;
+}
+.text-center {
+  text-align: center!important;
+}
+.lf-normal {
+  font-size: 15px!important;
+}
+.lf-large {
+  font-size: 18px!important;
+}
+.lf-xlarge {
+  font-size: 28px!important;
+}
+.text-xxxlarge {
+  font-size: 32px !important;
+}
+.text-lighter {
+  font-weight: lighter;
+}
+.lf-padding-large {
+  padding: 12px 24px!important;
+}
+.lf-padding-xlarge {
+  padding: 45px 38px!important;
+}
+.lf-padding-small {
+  padding: 10px 20px!important;
+}
+.lf-margin-top {
+  margin-top: 16px!important;
+}
+.lf-margin-top-large {
+  margin-top: 28px!important;
+}
+.lf-margin-top-xl {
+  margin-top: 30px!important;
+}
+.lf-margin-top-xxl {
+  margin-top: 50px!important;
+}
+.lf-no-margin {
+  margin: 0;
+}
+.lf-opacity,
+.lf-hover-opacity:hover {
+  opacity: 0.60;
+}
+.fa {
+  padding: 4px;
+}
+.lf-sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed!important;
+  z-index: 1;
+  overflow: auto;
+}
+.lf-card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.lf-card-2 {
+  margin: 5% 4%;
+  box-shadow: 10px 10px 5px #888888;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: .25rem;
+  min-width: 26%;
+  /* max-width: 35%; */
+  height: 100%;
+}
+.lf-card-block {
+  text-align: center;
+  padding: 1.25rem;
+}
+.lf-shadow {
+  box-shadow: 5px 5px 2px #888888;
+}
+.lf-animate-right {
+  position: relative;
+  animation: animateright 0.4s;
+}
+@keyframes animateright {
+  0% {
+    right: -800px;
+    opacity: 0;
+  }
+  100% {
+    right: 0;
+    opacity: 1;
+  }
+}
+.lf-animate-right {
+  position: relative;
+  animation: animateright 0.4s;
+}
+.lf-animate-right-slow {
+  position: relative;
+  animation: animateright 0.8s;
+}
+@keyframes animateleft {
+  0% {
+    left: -800px;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+.lf-animate-left-slow {
+  position: relative;
+  animation: animateleft 0.8s;
+}
+/*end new styles */
+@media only screen and (min-width: 1025px) {
+  .desktopLayout {
+    display: flex;
+    flex-direction: row;
+  }
+}
+/* mobile orientation: landscape
+
+@media only screen and (min-device-width: 314px) and (max-device-width: 768px) and (orientation: landscape) {
+    #nav {
+        #down {
+            margin-left: 55%;
+        }
+    }
+}
+*/
+/* ipad orientation: potrait
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #nav {
+        #down {
+            margin-left: 65%;
+        }
+    }
+}
+*/
+/* ipad orientation: landscape
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    #nav {
+        #down {
+            margin-left: 75%;
+        }
+    }
+}
+*/
+/*Desktop*/
+@media only screen and (min-width: 1025px) {
+  .lf-card-2 {
+    min-width: 26%;
+    /* max-width: 35%; */
+    height: 100%;
+  }
+  .lf-small-margin {
+    margin: 1%;
+  }
+  .lf-margin-top {
+    margin-top: 30px!important;
+  }
+  .lf-margin-top-xxl {
+    margin-top: 80px!important;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  #nav #down {
+    display: none;
+  }
+  #nav #down-content-desktop {
+    display: block;
+    /* width: 100%;*/
+    left: 0;
+    /* margin-left: 10%;
+           padding: 2% 0 0 0;
+            width: 100%;
+            a {
+                margin: 10%;
+            }
+            */
+  }
+  #indexMain .feature {
+    width: 25%;
+    padding: 2%;
+  }
+  .wide {
+    letter-spacing: 4px;
+  }
+  .text-xxxlarge {
+    font-size: 48px !important;
+  }
+}
+/* end neha */

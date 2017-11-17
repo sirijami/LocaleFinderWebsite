@@ -1,0 +1,106 @@
+.bg-main {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../image/Seattle-skyline4.png");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-transition: background 1s;
+  transition: background 1s;
+}
+.lf-transform {
+  transform: translate3d(0px, -43.6107px, 0px) scale(1) rotate(0deg);
+}
+.display-main {
+  position: relative;
+}
+html {
+  overflow-x: hidden;
+}
+.buttonHover{
+  border-radius: 4px;
+  background-color: #2dbcb6;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px 10px;
+  margin: 30px 30px;
+  width: 70%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.buttonHover{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.buttonHover span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonHover span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: -18px;
+  right: 10px;
+  transition: 0.5s;
+  font-size: 2rem;
+}
+.buttonHover:hover span {
+  padding-right: 25px;
+}
+
+.buttonHover:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*Desktop*/
+@media only screen and (min-width: 1025px) {
+  .buttonHover{
+    width: 25%;
+  }
+  #optionsSection {
+    height: 42rem;
+  }
+  .cardButton {
+    width: 30%;
+    margin-bottom: 2%;
+    margin-left: 30%;
+  }
+  .card {
+    margin: 2% 4%;
+    box-shadow: 10px 10px 5px #888888;
+    height: 28rem;
+  }
+  #optionsSection h2 {
+    margin-top: 3%;
+  }
+  img {
+    opacity: 0.9;
+    display: block;
+    width: 100%;
+    height: 40%;
+    cursor: pointer;
+  }
+  .card:hover img {
+    opacity: 0.7;
+  }
+  .card-block {
+    text-align: center;
+  }
+  .card-group {
+    margin: 2% 4%;
+  }
+  .cardButton {
+    width: 40%;
+    height: 3rem;
+    margin-bottom: 7%;
+  }
+}
+/*end by Sirisha*/

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Questions">
+  <meta name="keywords" content="transportation,kids,activities,income range">
+  <meta name="robots" content="index, nofollow">
+  <title>Questionaire Page</title>
+   <!--Common Style Sheets-->
+  <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="../css/html-semantics.css" />
+  <link rel="stylesheet" type="text/css" href="../css/layout.css" />
+  <link rel="stylesheet" type="text/css" href="../css/brand.css" />
+   <!-- end -->
+
+  <link rel="stylesheet" type="text/css" href="../css/sliderQuestionStyle.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+   <!-- Header Footer Load Script -->
+  <script type="text/javascript" src="../js/loadHeaderFooter.js"></script>
+</head>
+<body>
+    <div id="header"></div>
+    <div>
+        <h2 role="heading">Let's find few best neigborhoods for you</h2>
+        <!-- multistep form -->
+        <form id="msform" role=form>
+            <!-- progressbar -->
+            <ul id="progressbar">
+                <li class="active">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+            <!-- fieldsets -->
+            <fieldset class="lf-card-2">
+                <h3 class="fs-title" role="heading">Which activity interests you the most?</h3>
+                  <input id="q1o1" class="q1 selector" type="radio" name="activity" value="Outdoor Activities" 	role=radio/>
+                  <label for="q1o1">Outdoor Activities</label><br>
+                  <input id="q1o2" class="q1 selector" type="radio" name="activity" value="movies" 	role=radio/>
+                  <label for="q1o2">Watching Movies</label><br>
+                  <input id="q1o3" class="q1 selector" type="radio" name="activity" value="bar-hopping" 	role=radio/>
+                  <label for="q1o3">Bar Hopping</label><br>
+                  <input id="q1o4" class="q1 selector" type="radio" name="activity" value="foodie" 	role=radio/>
+                  <label for="q1o4">Trying Different Cuisines</label><br>
+            </fieldset>
+            <fieldset class="lf-card-2">
+                <h3 class="fs-title" role="heading">Do you have kids?</h3>
+                <input id="q2o1" class="q2 selector" type="radio" name="kids" value="YES" 	role=radio/>
+                <label for="q2o1">Yes</label><br/>
+                <input id="q2o2" class="q2 selector" type="radio" name="kids" value="NO" 	role=radio/>
+                <label for="q2o2">No</label><br/>
+                <input id="q2o3" class="q2 selector" type="radio" name="kids" value="NA" 	role=radio/>
+                <label for="q2o3">N/A</label><br/>
+                <i class="fa fa-chevron-circle-left previous action-button fa-lg" aria-hidden="true"></i>
+            </fieldset>
+            <fieldset class="lf-card-2">
+                <h3 class="fs-title" role="heading">Please share your income range?</h3>
+                <input id="q3o1" class="q3 selector" type="radio" name="income" value="10-30" role=radio/>
+                <label for="q3o1">10-30k</label><br/>
+                <input id="q3o2" class="q3 selector" type="radio" name="income" value="30-60" role=radio/>
+                <label for="q3o2">30-60k</label><br/>
+                <input id="q3o3" class="q3 selector" type="radio" name="income" value="60-90" role=radio/>
+                <label for="q3o3">60-90k</label><br/>
+                <input id="q3o4" class="q3 selector" type="radio" name="income" value="90+" role=radio/>
+                <label for="q3o4">90+k</label><br/>
+                <i class="fa fa-chevron-circle-left previous action-button fa-lg" aria-hidden="true"></i>
+            </fieldset>
+            <fieldset id='lastQue' class="lf-card-2">
+                <h3 class="fs-title" role="heading">How often do you use public transportion?</h3>
+                <input id="q4o1" class="q4" type="radio" name="transportation" value="DAILY" role=radio/>
+                <label for="q4o1">Very Often</label><br/>
+                <input id="q4o2" class="q4" type="radio" name="transportation" value="ONCE A WEEK" role=radio/>
+                <label for="q4o2">Sometimes</label><br/>
+                <input id="q4o3" class="q4" type="radio" name="transportation" value="FEW DAYS IN A WEEK" role=radio/>
+                <label for="q4o3">Often</label><br/>
+                <input id="q4o4" class="q4" type="radio" name="transportation" value="NA" role=radio/>
+                <label for="q4o4">N/A</label><br/>
+                <i class="fa fa-chevron-circle-left previous action-button fa-lg" aria-hidden="true"></i>
+                <button class="lf-button lf-button-brand  lf-padding-large  lf-large buttonStyling submit"  onclick="location.href='SuggestionsPage.html';" role="button">Suggest Me</button>
+            </fieldset>
+        </form>
+    </div>
+ <!-- footer section -->
+ <div id='footer'></div>
+ <script type="text/javascript" src="../js/sliderQuestion.js"></script>
+</body>
+</html>

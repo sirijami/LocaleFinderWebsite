@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Find Your Dream Neighborhood">
+    <meta name="keywords" content="local,neighborhood,seattle">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Locale Finder: Find Neighborhood</title>
+    <!--Common Style Sheets-->
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/html-semantics.css" />
+    <link rel="stylesheet" type="text/css" href="../css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="../css/brand.css" />
+    <!--end-->
+    <link rel="stylesheet" type="text/css" href="../css/map.css"> 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/loadHeaderFooter.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+</head>
+
+<body>
+    <div id='header'></div>
+
+    <div class="desktopLayout  lf-bg">
+        <div itemprop="map" itemscope itemtype="http://schema.org/map" id="googleMap"></div>
+        <div class="text-center" style="margin:15% 5% 0 5%">
+            <h2 style="font-size:140%">Let's choose a neighborhood and view the details</h2>
+            <h3 itemprop="accessibilityAPI"><a href="neighborDetail.html?name=Northgate">Northgate</a></h3>
+            <h3 itemprop="accessibilityAPI"><a href="neighborDetail.html?name=Ballard">Ballard</a></h3>
+            <h3 itemprop="accessibilityAPI"><a href="neighborDetail.html?name=Fremont">Fremont</a></h3>
+            <h3 itemprop="accessibilityAPI"><a href="neighborDetail.html?name=University District">U-District</a></h3>
+            <h3 itemprop="accessibilityAPI"><a href="neighborDetail.html?name=Queen Anne">Queen Anne</a></h3>
+            <h3 itemprop="accessibilityAPI"><a href="neighborDetail.html?name=Capitol Hill">Capitol Hill</a></h3>
+            <h3 itemprop="accessibilityAPI"><a href="neighborDetail.html?name=Downtown">Downtown</a></h3>
+            <h3 itemprop="accessibilityAPI"><a href="neighborDetail.html?name=Alki">Alki</a></h3>
+            <h3 itemprop="accessibilityAPI"><a href="neighborDetail.html?name=Green Lake">Green Lake</a></h3>
+            <h3 itemprop="accessibilityAPI"><a href="neighborDetail.html?name=South Lake Union">South Lake Union</a></h3>
+        </div>
+    </div>
+
+    <div id='footer'></div>
+    <!--Scripts -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDD6p3hRqf_9fLtJ9GdOSt42ZZelflC3IA&callback=myMap"></script>
+    <script type="text/javascript" src="../js/map.js"></script>
+</body>
+</html>

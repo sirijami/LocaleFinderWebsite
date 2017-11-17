@@ -1,0 +1,83 @@
+
+#slider:after
+{
+	  position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 100px;
+    z-index:-3;
+	  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+
+.icon
+{
+	font-size: 50px;
+	color: #fff;
+	position: relative;
+}
+
+#left
+{
+	float: left;
+	margin-top: 320px;
+  background-color: #262216;
+}
+
+#right
+{
+	float: right;
+	margin-top: -25px;
+	background-color: #262216;
+}
+.icon:hover{
+	color: green;
+	cursor:pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    #right{
+      margin-top: 20px;
+    }
+}
+#sliderHeader,#sliderPara
+{
+	color: #fff;
+	margin-right: 100px;
+	text-align: center;
+	position: relative;
+}
+#moreBtn{
+  margin-right: 100px;
+	text-align: center;
+	opacity:1;
+}
+#sliderPara{
+  font-style: italic;
+  font-size:1.2rem;
+	opacity: 1;
+}
+#sliderHeader
+{
+	font-size: 30px;
+	opacity: 1;
+}
+#backgroundMask{
+	position: relative;
+	top:100px;
+	background-color:rgba(38,34,22,0.6);
+  width: 70%;
+	margin: auto;
+	height: 350px;
+}
+@media only screen and (min-width: 1025px) {
+  #sliderHeader
+  {
+  	font-size: 52px;
+  }
+	#backgroundMask{
+		top:200px;
+		height: 300px;
+	}
+}

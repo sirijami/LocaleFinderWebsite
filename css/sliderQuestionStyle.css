@@ -1,0 +1,152 @@
+body{
+  overflow-x: hidden;
+  background-color: #e9ece5;
+  color:#3b3a36;
+}
+h2{
+  margin-top:100px;
+  text-align: center;
+}
+#msform{
+  width: 100%;
+  height: 30rem;
+  margin-top: 2%;
+}
+#msform fieldset:not(:first-of-type) {
+  display: none;
+}
+/*progressbar*/
+#progressbar {
+  overflow: hidden;
+  counter-reset: step;
+  display: flex;
+}
+
+#progressbar li {
+  list-style-type: none;
+  color:#e9ece5;
+  width: 33.33%;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 20px;
+    line-height: 20px;
+    display: block;
+    font-size: 1rem;
+    color: #3b3a36;
+    background: white;
+    border-radius: 3px;
+    margin: 0 auto 5px auto;
+}
+
+/*progressbar connectors*/
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: -50%;
+    top: 9px;
+    z-index: -1;
+    font-size: 1rem;
+}
+
+#progressbar li:first-child:after {
+  content: none;
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+  background: #2dbcb6;
+  color: white;
+}
+.lf-card-2{
+  width: 80%;
+  height: 57%;
+  margin: 2% 10%;
+  background-color: grey;
+  color:white;
+}
+h3{
+  color: #6ed3cf;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+label:hover{
+  color:#2dbcb6;
+}
+input{
+  margin-left:18%;
+  margin-right: 5%;
+}
+label{
+  cursor: pointer;
+}
+i{
+  cursor: pointer;
+}
+i:hover{
+  color: #2dbcb6;
+}
+.submit{
+  margin-top: 8%;
+}
+#msform .action-button {
+  float: left;
+  padding: 3% 5%;
+  margin-top: 10%;
+}
+/* Desktop view */
+@media screen and (min-width: 600px){
+    body{
+       height: 400px;
+    }
+    h2{
+        margin-top: 130px;
+        font-size: 1.5rem;
+    }
+    #msform{
+        width: 80%;
+        height: 30rem;
+        margin: 2% 10%;
+    }
+    #progressbar li:before {
+        line-height: 25px;
+        padding: 3% 5%;
+        font-size: 1.3rem;
+    }
+    #progressbar li:after {
+        margin-top: 3%;
+    }
+    .lf-card-2{
+        margin: 0% 22%;
+        width: 55%;
+        height: 70%;
+    }
+    h3{
+        font-size: 1.5rem;
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+    input{
+        margin-left:33%;
+        margin-right: 5%;
+    }
+    label{
+      font-size: 1.3rem;
+    }
+    #msform .action-button {
+      margin-top: 8%;
+    }
+    .submit{
+      margin: 5% 20%;
+    }
+
+}
